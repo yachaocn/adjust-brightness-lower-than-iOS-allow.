@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670182931F1F5D7900A6940B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670182921F1F5D7900A6940B /* main.m */; };
+		670182961F1F5D7900A6940B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670182951F1F5D7900A6940B /* AppDelegate.m */; };
+		670182991F1F5D7900A6940B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670182981F1F5D7900A6940B /* ViewController.m */; };
+		6701829C1F1F5D7900A6940B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6701829A1F1F5D7900A6940B /* Main.storyboard */; };
+		6701829E1F1F5D7900A6940B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6701829D1F1F5D7900A6940B /* Assets.xcassets */; };
+		670182A11F1F5D7900A6940B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6701829F1F1F5D7900A6940B /* LaunchScreen.storyboard */; };
+		670182AC1F1F5D7900A6940B /* DarkBrightnessThaniOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670182AB1F1F5D7900A6940B /* DarkBrightnessThaniOSTests.m */; };
+		670182B71F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670182B61F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.m */; };
+		67D5D2B41F203D63003B4178 /* IOMobileFramebufferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D29F1F203D63003B4178 /* IOMobileFramebufferClient.m */; };
+		67D5D2B51F203D63003B4178 /* MobileGestaltClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2A21F203D63003B4178 /* MobileGestaltClient.m */; };
+		67D5D2B61F203D63003B4178 /* SpringBoardServicesClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2A51F203D63003B4178 /* SpringBoardServicesClient.m */; };
+		67D5D2B71F203D63003B4178 /* GammaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2A71F203D63003B4178 /* GammaController.m */; };
+		67D5D2B81F203D63003B4178 /* Brightness.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2AA1F203D63003B4178 /* Brightness.c */; };
+		67D5D2B91F203D63003B4178 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D5D2AC1F203D63003B4178 /* Defaults.plist */; };
+		67D5D2BA1F203D63003B4178 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2AF1F203D63003B4178 /* NSDate+Extensions.m */; };
+		67D5D2BB1F203D63003B4178 /* Solar.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D5D2B21F203D63003B4178 /* Solar.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670182A81F1F5D7900A6940B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670182861F1F5D7900A6940B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6701828D1F1F5D7900A6940B;
+			remoteInfo = DarkBrightnessThaniOS;
+		};
+		670182B31F1F5D7900A6940B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670182861F1F5D7900A6940B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6701828D1F1F5D7900A6940B;
+			remoteInfo = DarkBrightnessThaniOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6701828E1F1F5D7900A6940B /* DarkBrightnessThaniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkBrightnessThaniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670182921F1F5D7900A6940B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670182941F1F5D7900A6940B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		670182951F1F5D7900A6940B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		670182971F1F5D7900A6940B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670182981F1F5D7900A6940B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6701829B1F1F5D7900A6940B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6701829D1F1F5D7900A6940B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670182A01F1F5D7900A6940B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		670182A21F1F5D7900A6940B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670182A71F1F5D7900A6940B /* DarkBrightnessThaniOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkBrightnessThaniOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670182AB1F1F5D7900A6940B /* DarkBrightnessThaniOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkBrightnessThaniOSTests.m; sourceTree = "<group>"; };
+		670182AD1F1F5D7900A6940B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670182B21F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkBrightnessThaniOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670182B61F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkBrightnessThaniOSUITests.m; sourceTree = "<group>"; };
+		670182B81F1F5D7900A6940B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D5D29E1F203D63003B4178 /* IOMobileFramebufferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOMobileFramebufferClient.h; sourceTree = "<group>"; };
+		67D5D29F1F203D63003B4178 /* IOMobileFramebufferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOMobileFramebufferClient.m; sourceTree = "<group>"; };
+		67D5D2A11F203D63003B4178 /* MobileGestaltClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileGestaltClient.h; sourceTree = "<group>"; };
+		67D5D2A21F203D63003B4178 /* MobileGestaltClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileGestaltClient.m; sourceTree = "<group>"; };
+		67D5D2A41F203D63003B4178 /* SpringBoardServicesClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringBoardServicesClient.h; sourceTree = "<group>"; };
+		67D5D2A51F203D63003B4178 /* SpringBoardServicesClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringBoardServicesClient.m; sourceTree = "<group>"; };
+		67D5D2A61F203D63003B4178 /* GammaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GammaController.h; sourceTree = "<group>"; };
+		67D5D2A71F203D63003B4178 /* GammaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GammaController.m; sourceTree = "<group>"; };
+		67D5D2AA1F203D63003B4178 /* Brightness.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Brightness.c; sourceTree = "<group>"; };
+		67D5D2AB1F203D63003B4178 /* Brightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brightness.h; sourceTree = "<group>"; };
+		67D5D2AC1F203D63003B4178 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
+		67D5D2AE1F203D63003B4178 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		67D5D2AF1F203D63003B4178 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		67D5D2B01F203D63003B4178 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		67D5D2B21F203D63003B4178 /* Solar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Solar.c; sourceTree = "<group>"; };
+		67D5D2B31F203D63003B4178 /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
+		67D5D2BC1F2042AB003B4178 /* DarkBrightnessThaniOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkBrightnessThaniOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6701828B1F1F5D7900A6940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182A41F1F5D7900A6940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182AF1F1F5D7900A6940B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670182851F1F5D7900A6940B = {
+			isa = PBXGroup;
+			children = (
+				67D5D29A1F203D63003B4178 /* DarkBrightness */,
+				670182901F1F5D7900A6940B /* DarkBrightnessThaniOS */,
+				670182AA1F1F5D7900A6940B /* DarkBrightnessThaniOSTests */,
+				670182B51F1F5D7900A6940B /* DarkBrightnessThaniOSUITests */,
+				6701828F1F1F5D7900A6940B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6701828F1F1F5D7900A6940B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6701828E1F1F5D7900A6940B /* DarkBrightnessThaniOS.app */,
+				670182A71F1F5D7900A6940B /* DarkBrightnessThaniOSTests.xctest */,
+				670182B21F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670182901F1F5D7900A6940B /* DarkBrightnessThaniOS */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2BC1F2042AB003B4178 /* DarkBrightnessThaniOS.entitlements */,
+				670182941F1F5D7900A6940B /* AppDelegate.h */,
+				670182951F1F5D7900A6940B /* AppDelegate.m */,
+				670182971F1F5D7900A6940B /* ViewController.h */,
+				670182981F1F5D7900A6940B /* ViewController.m */,
+				6701829A1F1F5D7900A6940B /* Main.storyboard */,
+				6701829D1F1F5D7900A6940B /* Assets.xcassets */,
+				6701829F1F1F5D7900A6940B /* LaunchScreen.storyboard */,
+				670182A21F1F5D7900A6940B /* Info.plist */,
+				670182911F1F5D7900A6940B /* Supporting Files */,
+			);
+			path = DarkBrightnessThaniOS;
+			sourceTree = "<group>";
+		};
+		670182911F1F5D7900A6940B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				670182921F1F5D7900A6940B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		670182AA1F1F5D7900A6940B /* DarkBrightnessThaniOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				670182AB1F1F5D7900A6940B /* DarkBrightnessThaniOSTests.m */,
+				670182AD1F1F5D7900A6940B /* Info.plist */,
+			);
+			path = DarkBrightnessThaniOSTests;
+			sourceTree = "<group>";
+		};
+		670182B51F1F5D7900A6940B /* DarkBrightnessThaniOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				670182B61F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.m */,
+				670182B81F1F5D7900A6940B /* Info.plist */,
+			);
+			path = DarkBrightnessThaniOSUITests;
+			sourceTree = "<group>";
+		};
+		67D5D29A1F203D63003B4178 /* DarkBrightness */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D29B1F203D63003B4178 /* Core */,
+				67D5D2A81F203D63003B4178 /* SuportFiles */,
+			);
+			path = DarkBrightness;
+			sourceTree = "<group>";
+		};
+		67D5D29B1F203D63003B4178 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D29C1F203D63003B4178 /* Clients */,
+				67D5D2A61F203D63003B4178 /* GammaController.h */,
+				67D5D2A71F203D63003B4178 /* GammaController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		67D5D29C1F203D63003B4178 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D29D1F203D63003B4178 /* IOMobileFramebuffer */,
+				67D5D2A01F203D63003B4178 /* MobileGestalt */,
+				67D5D2A31F203D63003B4178 /* SpringBoardServices */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		67D5D29D1F203D63003B4178 /* IOMobileFramebuffer */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D29E1F203D63003B4178 /* IOMobileFramebufferClient.h */,
+				67D5D29F1F203D63003B4178 /* IOMobileFramebufferClient.m */,
+			);
+			path = IOMobileFramebuffer;
+			sourceTree = "<group>";
+		};
+		67D5D2A01F203D63003B4178 /* MobileGestalt */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2A11F203D63003B4178 /* MobileGestaltClient.h */,
+				67D5D2A21F203D63003B4178 /* MobileGestaltClient.m */,
+			);
+			path = MobileGestalt;
+			sourceTree = "<group>";
+		};
+		67D5D2A31F203D63003B4178 /* SpringBoardServices */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2A41F203D63003B4178 /* SpringBoardServicesClient.h */,
+				67D5D2A51F203D63003B4178 /* SpringBoardServicesClient.m */,
+			);
+			path = SpringBoardServices;
+			sourceTree = "<group>";
+		};
+		67D5D2A81F203D63003B4178 /* SuportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2A91F203D63003B4178 /* Brightness */,
+				67D5D2AC1F203D63003B4178 /* Defaults.plist */,
+				67D5D2AD1F203D63003B4178 /* NSDate+Extensions */,
+				67D5D2B01F203D63003B4178 /* PrefixHeader.pch */,
+				67D5D2B11F203D63003B4178 /* Solar */,
+			);
+			path = SuportFiles;
+			sourceTree = "<group>";
+		};
+		67D5D2A91F203D63003B4178 /* Brightness */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2AA1F203D63003B4178 /* Brightness.c */,
+				67D5D2AB1F203D63003B4178 /* Brightness.h */,
+			);
+			path = Brightness;
+			sourceTree = "<group>";
+		};
+		67D5D2AD1F203D63003B4178 /* NSDate+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2AE1F203D63003B4178 /* NSDate+Extensions.h */,
+				67D5D2AF1F203D63003B4178 /* NSDate+Extensions.m */,
+			);
+			path = "NSDate+Extensions";
+			sourceTree = "<group>";
+		};
+		67D5D2B11F203D63003B4178 /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				67D5D2B21F203D63003B4178 /* Solar.c */,
+				67D5D2B31F203D63003B4178 /* Solar.h */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6701828D1F1F5D7900A6940B /* DarkBrightnessThaniOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670182BB1F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOS" */;
+			buildPhases = (
+				6701828A1F1F5D7900A6940B /* Sources */,
+				6701828B1F1F5D7900A6940B /* Frameworks */,
+				6701828C1F1F5D7900A6940B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkBrightnessThaniOS;
+			productName = DarkBrightnessThaniOS;
+			productReference = 6701828E1F1F5D7900A6940B /* DarkBrightnessThaniOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670182A61F1F5D7900A6940B /* DarkBrightnessThaniOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670182BE1F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOSTests" */;
+			buildPhases = (
+				670182A31F1F5D7900A6940B /* Sources */,
+				670182A41F1F5D7900A6940B /* Frameworks */,
+				670182A51F1F5D7900A6940B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670182A91F1F5D7900A6940B /* PBXTargetDependency */,
+			);
+			name = DarkBrightnessThaniOSTests;
+			productName = DarkBrightnessThaniOSTests;
+			productReference = 670182A71F1F5D7900A6940B /* DarkBrightnessThaniOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		670182B11F1F5D7900A6940B /* DarkBrightnessThaniOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670182C11F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOSUITests" */;
+			buildPhases = (
+				670182AE1F1F5D7900A6940B /* Sources */,
+				670182AF1F1F5D7900A6940B /* Frameworks */,
+				670182B01F1F5D7900A6940B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670182B41F1F5D7900A6940B /* PBXTargetDependency */,
+			);
+			name = DarkBrightnessThaniOSUITests;
+			productName = DarkBrightnessThaniOSUITests;
+			productReference = 670182B21F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670182861F1F5D7900A6940B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yachaocn;
+				TargetAttributes = {
+					6701828D1F1F5D7900A6940B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NR3MY5E9PN;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					670182A61F1F5D7900A6940B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V762XE89AY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6701828D1F1F5D7900A6940B;
+					};
+					670182B11F1F5D7900A6940B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V762XE89AY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6701828D1F1F5D7900A6940B;
+					};
+				};
+			};
+			buildConfigurationList = 670182891F1F5D7900A6940B /* Build configuration list for PBXProject "DarkBrightnessThaniOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670182851F1F5D7900A6940B;
+			productRefGroup = 6701828F1F1F5D7900A6940B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6701828D1F1F5D7900A6940B /* DarkBrightnessThaniOS */,
+				670182A61F1F5D7900A6940B /* DarkBrightnessThaniOSTests */,
+				670182B11F1F5D7900A6940B /* DarkBrightnessThaniOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6701828C1F1F5D7900A6940B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D5D2B91F203D63003B4178 /* Defaults.plist in Resources */,
+				670182A11F1F5D7900A6940B /* LaunchScreen.storyboard in Resources */,
+				6701829E1F1F5D7900A6940B /* Assets.xcassets in Resources */,
+				6701829C1F1F5D7900A6940B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182A51F1F5D7900A6940B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182B01F1F5D7900A6940B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6701828A1F1F5D7900A6940B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D5D2B61F203D63003B4178 /* SpringBoardServicesClient.m in Sources */,
+				670182991F1F5D7900A6940B /* ViewController.m in Sources */,
+				670182961F1F5D7900A6940B /* AppDelegate.m in Sources */,
+				67D5D2B41F203D63003B4178 /* IOMobileFramebufferClient.m in Sources */,
+				67D5D2B51F203D63003B4178 /* MobileGestaltClient.m in Sources */,
+				67D5D2BB1F203D63003B4178 /* Solar.c in Sources */,
+				67D5D2B71F203D63003B4178 /* GammaController.m in Sources */,
+				67D5D2BA1F203D63003B4178 /* NSDate+Extensions.m in Sources */,
+				67D5D2B81F203D63003B4178 /* Brightness.c in Sources */,
+				670182931F1F5D7900A6940B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182A31F1F5D7900A6940B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670182AC1F1F5D7900A6940B /* DarkBrightnessThaniOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670182AE1F1F5D7900A6940B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670182B71F1F5D7900A6940B /* DarkBrightnessThaniOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670182A91F1F5D7900A6940B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6701828D1F1F5D7900A6940B /* DarkBrightnessThaniOS */;
+			targetProxy = 670182A81F1F5D7900A6940B /* PBXContainerItemProxy */;
+		};
+		670182B41F1F5D7900A6940B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6701828D1F1F5D7900A6940B /* DarkBrightnessThaniOS */;
+			targetProxy = 670182B31F1F5D7900A6940B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6701829A1F1F5D7900A6940B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6701829B1F1F5D7900A6940B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6701829F1F1F5D7900A6940B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670182A01F1F5D7900A6940B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670182B91F1F5D7900A6940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		670182BA1F1F5D7900A6940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		670182BC1F1F5D7900A6940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkBrightnessThaniOS/DarkBrightnessThaniOS.entitlements;
+				DEVELOPMENT_TEAM = NR3MY5E9PN;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/DarkBrightness/SuportFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = DarkBrightnessThaniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yachaocn.DarkBrightnessThaniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		670182BD1F1F5D7900A6940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkBrightnessThaniOS/DarkBrightnessThaniOS.entitlements;
+				DEVELOPMENT_TEAM = NR3MY5E9PN;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/DarkBrightness/SuportFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = DarkBrightnessThaniOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yachaocn.DarkBrightnessThaniOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		670182BF1F1F5D7900A6940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V762XE89AY;
+				INFOPLIST_FILE = DarkBrightnessThaniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NAVCHINAEFB.DarkBrightnessThaniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkBrightnessThaniOS.app/DarkBrightnessThaniOS";
+			};
+			name = Debug;
+		};
+		670182C01F1F5D7900A6940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V762XE89AY;
+				INFOPLIST_FILE = DarkBrightnessThaniOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NAVCHINAEFB.DarkBrightnessThaniOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkBrightnessThaniOS.app/DarkBrightnessThaniOS";
+			};
+			name = Release;
+		};
+		670182C21F1F5D7900A6940B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V762XE89AY;
+				INFOPLIST_FILE = DarkBrightnessThaniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NAVCHINAEFB.DarkBrightnessThaniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DarkBrightnessThaniOS;
+			};
+			name = Debug;
+		};
+		670182C31F1F5D7900A6940B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V762XE89AY;
+				INFOPLIST_FILE = DarkBrightnessThaniOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NAVCHINAEFB.DarkBrightnessThaniOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DarkBrightnessThaniOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670182891F1F5D7900A6940B /* Build configuration list for PBXProject "DarkBrightnessThaniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670182B91F1F5D7900A6940B /* Debug */,
+				670182BA1F1F5D7900A6940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670182BB1F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670182BC1F1F5D7900A6940B /* Debug */,
+				670182BD1F1F5D7900A6940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670182BE1F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670182BF1F1F5D7900A6940B /* Debug */,
+				670182C01F1F5D7900A6940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670182C11F1F5D7900A6940B /* Build configuration list for PBXNativeTarget "DarkBrightnessThaniOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670182C21F1F5D7900A6940B /* Debug */,
+				670182C31F1F5D7900A6940B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670182861F1F5D7900A6940B /* Project object */;
+}
